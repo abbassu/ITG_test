@@ -6,25 +6,33 @@ public class Books {
 	static ArrayList<bookArray> addBooks = new ArrayList<bookArray>();
 	static int index = 0;
 	public Books() {
-		// TODO Auto-generated constructor stub
+
 		addBooks.add(index,new bookArray("E102", "Mustafa Ramahi", "Mustafa119"));
 		++index;
 		addBooks.add(index,new bookArray("AI", "Omar Salous", "Omar119"));
 		++index;
 		addBooks.add(index,new bookArray("SE", "Abbas Surkji", "Abbas119"));
 		++index;
+		
 	}
 	
 	public int size() {
-		// TODO Auto-generated method stub
+		
 		return addBooks.size();
+		
 	}
 	
 	public void addToArray(String string, String string2, String string3) {
-		// TODO Auto-generated method stub
+		
 		addBooks.add(index,new bookArray(string, string2, string3));
 		++index;
+		
 	}
+	
+	
+	
+	
+	
 	
 }
 
