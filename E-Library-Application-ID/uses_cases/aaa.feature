@@ -10,6 +10,6 @@ Scenario: Admin can login
 	
 Scenario: Admin has the wrong password
 	Given that the admin is not logged in
-	And the password is "adminxyz"
+	And the password is "hstf"
 	Then the admin login fails
 	And the admin is not logged in
