@@ -46,7 +46,8 @@ public class AdminLogg {
 	public void the_admin_login_succeeds() {
 		assertTrue(flagIsAdmin);
 		if (flagIsAdmin)
-			flagToLogOut = true;
+			flagToLogOut = true; 
+		
 	}
 	@Then("the admin is logged in")
 	public void the_admin_is_logged_in() {
